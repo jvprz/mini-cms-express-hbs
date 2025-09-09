@@ -2,7 +2,11 @@
   "webs": [
     {
       "ruta": "main",
-      "file": "web\\main.html"
+      "file": "web/main.html"
+    },
+    {
+      "ruta": "nosotros",
+      "file": "web\\nosotros.html"
     }
   ]
 }
