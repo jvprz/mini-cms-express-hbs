@@ -1,0 +1,8 @@
+{
+  "webs": [
+    {
+      "ruta": "main",
+      "file": "web\\main.html"
+    }
+  ]
+}

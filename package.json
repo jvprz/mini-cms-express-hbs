@@ -1,30 +1,31 @@
 {
   "name": "mini-cms-express-hbs",
   "version": "1.0.0",
-  "description": "Mini CMS en Node.js con Express y Handlebars, con panel de administración (/admin) para crear, editar y borrar páginas dinámicas.",
-  "main": "index.js",
+  "description": "Mini CMS en Node.js con Express y Handlebars (hbs) con panel /admin y rutas dinámicas.",
+  "main": "app.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "postinstall": "node -e \"console.log('Proyecto instalado. Ejecuta \\'npm run dev\\' para desarrollo.')\""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jvprz/mini-cms-express-hbs.git"
-  },
-  "keywords": [],
+  "keywords": [
+    "express",
+    "hbs",
+    "cms",
+    "admin",
+    "node"
+  ],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jvprz/mini-cms-express-hbs/issues"
-  },
-  "homepage": "https://github.com/jvprz/mini-cms-express-hbs#readme",
+  "license": "MIT",
   "dependencies": {
-    "compression": "^1.8.1",
-    "express": "^5.1.0",
+    "compression": "^1.7.4",
+    "express": "^4.19.2",
     "hbs": "^4.2.0",
-    "helmet": "^8.1.0",
-    "morgan": "^1.10.1"
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.0"
   }
 }
