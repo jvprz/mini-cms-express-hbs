@@ -2,8 +2,10 @@
   "name": "mini-cms-express-hbs",
   "version": "1.0.0",
   "description": "Mini CMS en **Node.js** con **Express** y **Handlebars (hbs)**.   Incluye un panel de administración en `/admin` para **crear, editar y borrar páginas dinámicas** servidas en rutas personalizadas.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,8 +13,8 @@
     "url": "git+https://github.com/jvprz/mini-cms-express-hbs.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Javier Pérez Santos",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jvprz/mini-cms-express-hbs/issues"
   },
@@ -26,5 +28,8 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
